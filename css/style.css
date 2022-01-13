@@ -51,9 +51,11 @@ li{
 }
 
 .logo{
-    font-weight: bold;   
+    font-weight: 700;   
     font-size: 26px;
     line-height: 0.8;
+    
+
 }
 
 .web{
@@ -120,11 +122,13 @@ li{
     line-height: 1.88;
     font-weight: 700;
     color: var(--btn-color);
+    background: #2196F3;
+    cursor: pointer;
 }
 
 .button:hover, 
 .button:focus{
-    background: #2196F3;;
+    background: #2196F3;
 }
 
 /*--------peculiarities section-----*/
@@ -218,11 +222,20 @@ li{
 /*---------footer section---------*/
 
 .footer{
+    
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
     background: #2F303A;
 }
 
 .footer-info{
-
+    font-style: normal;
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    top: 2208px;
 }
 
 .footer-item{
@@ -234,7 +247,7 @@ li{
 }
 
 .footer-link{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -255,7 +268,8 @@ li{
 
      .btn-list:hover, 
      .btn-list:focus{
-        color: #2196F3;
+        background: #2196F3;
+        color: #FFFFFF;;
      }
 
      .btn-list{
@@ -264,6 +278,7 @@ li{
         line-height: 1.62;
         /* text-align: center; */
         letter-spacing: 0.03em;
+        cursor: pointer;
         color: #212121;
      }
 
