@@ -1,7 +1,291 @@
-/* :root{
-    --ptimary-text-color:
-    --title-text-color:
-    --accent-color: 
-}*/
+  :root{
+    --ptimary-text-color: #757575 ;
+    --title-text-color: #212121 ;
+    --background-text-color: ;
+    --btn-color: #ffffff; 
+    --second-btn-color: #2196F3; 
+ } 
 
- 
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+margin: 0;
+}
+
+a{
+    color: #212121;
+    text-decoration: none;
+}
+
+
+li{
+ list-style-type: none;
+}
+
+/* -----------Header---------------- */
+
+.header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav{
+
+}
+
+.logo{
+    font-weight: bold;   
+    font-size: 26px;
+    line-height: 0.8;
+}
+
+.web{
+    color: #2196F3;
+    }
+    .studio{
+    color: #000000;
+    }
+
+.header-item{
+
+}
+
+.header-info:hover, 
+.header-info:focus{
+     color: #2196F3;
+}
+
+.header-link{
+   
+}
+
+.header-list{
+
+}
+
+.malto{
+    color: #757575;    
+}
+.telephone{
+    color: #757575;
+}
+
+.malto:hover, .malto:focus,
+.telephone:hover, .telephone:focus{
+    color: #2196F3;
+}
+
+/*-----------business section------------ */
+
+.main{
+
+}
+
+.section-business{
+   
+}
+
+.business-item{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* text-align: center; */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: black;
+  
+}
+
+.button{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+    color: var(--btn-color);
+}
+
+.button:hover, 
+.button:focus{
+    background: #2196F3;;
+}
+
+/*--------peculiarities section-----*/
+
+.peculiarities-section{
+
+}
+
+.section-list{
+
+}
+
+.section-item{
+
+}
+
+.hero{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+     color: var(--title-text-color);
+}
+
+.hero-info{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+     color: var(--ptimary-text-color);
+    
+}
+/*-----------foto section------------*/
+
+.foto-section{
+
+}
+
+.section-hero{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    
+}
+
+.foto-item{
+
+}
+
+.foto-list{
+
+}
+
+/*---------command section-----------*/
+
+.section-comand{
+
+}
+
+.comand-hero{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.hero-info{
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--ptimary-text-color);
+}
+
+.comand-list{
+
+}
+
+.comand-item{
+
+}
+
+
+
+
+/*---------footer section---------*/
+
+.footer{
+    background: #2F303A;
+}
+
+.footer-info{
+
+}
+
+.footer-item{
+
+}
+
+.footer-list{
+   
+}
+
+.footer-link{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.footer-link:hover, 
+.footer-link:focus{
+    color: #2196F3;
+}
+
+
+/*----------portfolio.html------------*/
+
+     .main-item{
+
+     }
+
+     .btn-list:hover, 
+     .btn-list:focus{
+        color: #2196F3;
+     }
+
+     .btn-list{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        /* text-align: center; */
+        letter-spacing: 0.03em;
+        color: #212121;
+     }
+
+     .foto-list{
+
+     }
+
+     .main-list{
+
+     }
+
+     .main-hero{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--title-text-color);
+     }
+
+     .main-hero-list{
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--ptimary-text-color);
+     }
