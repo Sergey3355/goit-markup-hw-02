@@ -51,11 +51,11 @@ li{
 }
 
 .logo{
-    font-weight: 700;   
+    font-style: 400;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 0.8;
-    
-
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .web{
@@ -228,6 +228,15 @@ li{
     left: 0px;
     top: 2097px;
     background: #2F303A;
+}
+
+.logo-footer{
+    font-style: 400;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
 }
 
 .footer-info{
